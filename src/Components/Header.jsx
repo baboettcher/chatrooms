@@ -27,7 +27,7 @@ class Header extends Component {
       <div>
         <Navbar color="light" light expand="md">
           <NavbarBrand tag={Link} to="/">
-            Chat App
+            Chat App!
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
